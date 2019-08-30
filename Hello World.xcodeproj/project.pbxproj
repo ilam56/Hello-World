@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F81243282318E65200F542FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81243272318E65200F542FC /* AppDelegate.swift */; };
-		F812432A2318E65200F542FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81243292318E65200F542FC /* ViewController.swift */; };
 		F812432D2318E65200F542FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F812432B2318E65200F542FC /* Main.storyboard */; };
 		F81243302318E65200F542FC /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F812432E2318E65200F542FC /* Hello_World.xcdatamodeld */; };
 		F81243322318E65300F542FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81243312318E65300F542FC /* Assets.xcassets */; };
 		F81243352318E65300F542FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81243332318E65300F542FC /* LaunchScreen.storyboard */; };
 		F81243402318E65300F542FC /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812433F2318E65300F542FC /* Hello_WorldUITests.swift */; };
+		F812434B2318F73000F542FC /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812434A2318F73000F542FC /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		F81243242318E65200F542FC /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81243272318E65200F542FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F81243292318E65200F542FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F812432C2318E65200F542FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F812432F2318E65200F542FC /* Hello_World.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hello_World.xcdatamodel; sourceTree = "<group>"; };
 		F81243312318E65300F542FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		F812433B2318E65300F542FC /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F812433F2318E65300F542FC /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		F81243412318E65300F542FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F812434A2318F73000F542FC /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				F81243272318E65200F542FC /* AppDelegate.swift */,
-				F81243292318E65200F542FC /* ViewController.swift */,
 				F812432B2318E65200F542FC /* Main.storyboard */,
 				F81243312318E65300F542FC /* Assets.xcassets */,
 				F81243332318E65300F542FC /* LaunchScreen.storyboard */,
 				F81243362318E65300F542FC /* Info.plist */,
 				F812432E2318E65200F542FC /* Hello_World.xcdatamodeld */,
+				F812434A2318F73000F542FC /* HelloWorldViewController.swift */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -200,8 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F812434B2318F73000F542FC /* HelloWorldViewController.swift in Sources */,
 				F81243302318E65200F542FC /* Hello_World.xcdatamodeld in Sources */,
-				F812432A2318E65200F542FC /* ViewController.swift in Sources */,
 				F81243282318E65200F542FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
